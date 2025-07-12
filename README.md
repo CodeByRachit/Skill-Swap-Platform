@@ -1,5 +1,8 @@
 # Project: Skill Swap Platform 
 
+## Problem Statement
+Develop a Skill Swap Platform — a mini application that enables users to list their skills and
+request others in return
 
 
 ## Team Members
@@ -34,3 +37,5 @@
 - Monitor pending, accepted, or cancelled swaps.
 - Send platform-wide messages (e.g., feature updates, downtime alerts).
 - Download reports of user activity, feedback logs, and swap stats.
+
+- 
