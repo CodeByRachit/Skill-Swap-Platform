@@ -28,3 +28,12 @@ request others in return
   - Show current and pending swap requests
 - *Ratings or feedback after a swap*
 - *The user is also able to delete the swap request if it is not accepted*
+
+
+## Admin Role Features
+
+- Reject inappropriate or spammy skill descriptions.
+- Ban users who violate platform policies.
+- Monitor pending, accepted, or cancelled swaps.
+- Send platform-wide messages (e.g., feature updates, downtime alerts).
+- Download reports of user activity, feedback logs, and swap stats.
