@@ -39,6 +39,77 @@ request others in return
 - Download reports of user activity, feedback logs, and swap stats.
 
 
+# Skill Swap Platform
+
+A simple web application built with Flask (Python) for the backend and React (JavaScript) for the frontend, allowing users to connect, offer, and request skills. It includes user authentication, profile management with image uploads, skill browsing, and a swap request system.
+
+## ✨ Features
+
+* **User Authentication:** Secure signup and login functionality.
+
+* **User Profiles:**
+
+    * Create and manage personal profiles.
+
+    * Specify skills offered and skills wanted.
+
+    * Set availability and location.
+
+    * **Profile Photo Upload:** Upload a profile picture directly from your device or link to an external URL.
+
+    * Choose a preferred theme (Indigo, Purple, Green).
+
+    * Option to make profile public or private.
+
+* **Browse Skills:** Discover other public users and the skills they offer or want.
+
+* **Swap Requests:** Send and manage requests to swap skills with other users.
+
+    * View pending, accepted, and rejected requests.
+
+    * Accept or reject incoming requests.
+
+* **Feedback System:** Provide feedback (rating and comment) after a swap request is accepted.
+
+* **Admin Panel:** (Accessible only to admin users)
+
+    * Manage user accounts (view, ban/unban).
+
+    * Monitor all swap requests.
+
+    * View feedback logs.
+
+    * Send platform-wide announcements.
+
+    * Download various reports (User Activity, Feedback Logs, Swap Statistics).
+
+## 🚀 Technologies Used
+
+**Backend:**
+* **Flask:** A lightweight Python web framework.
+* **SQLite3:** A file-based SQL database for data storage.
+* **Flask-CORS:** For handling Cross-Origin Resource Sharing.
+* **Werkzeug:** For secure password hashing.
+* **`os` & `uuid`:** Python standard libraries for file system operations and unique ID generation.
+
+**Frontend:**
+* **React:** A JavaScript library for building user interfaces (used via CDN for simplicity).
+* **Tailwind CSS:** A utility-first CSS framework for rapid styling (used via CDN).
+* **HTML5 & CSS3:** Standard web technologies.
+
+## 🛠️ Setup Instructions
+
+Follow these steps to get the Skill Swap Platform up and running on your local machine.
+
+### Prerequisites
+
+* **Python 3.x:** Make sure you have Python installed.
+* **`pip`:** Python's package installer (usually comes with Python).
+
+### 1. Project Structure
+
+Ensure your project directory is structured as follows:
+
 ```markdown
 # Skill Swap Platform
 
