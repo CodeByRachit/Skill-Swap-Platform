@@ -38,4 +38,4 @@ request others in return
 - Send platform-wide messages (e.g., feature updates, downtime alerts).
 - Download reports of user activity, feedback logs, and swap stats.
 
-- 
+ 
